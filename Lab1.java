@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	  Calendar Z = Calendar.getInstance();
 	  Z.setTimeZone(TimeZone.getTimeZone("GMT" + t));
 	  
-	  System.out.println("Time in this Time Zone: " + Z.get(Calendar.HOUR_OF_DAY) + ":"
+	  System.out.println("Time in this Time Zone: " + Z.get(Calendar.HOUR) + ":"
         + Z.get(Calendar.MINUTE));
 
   }
